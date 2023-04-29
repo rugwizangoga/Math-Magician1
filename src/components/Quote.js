@@ -32,8 +32,8 @@ const Quote = () => {
   if (hasError) return <div>Oups something wrong!!</div>;
 
   return (
-    <div>
-      <div className="qtitle">Quote of the day</div>
+    <div className="calc">
+      <div className="qtitle">Quote about the age</div>
       <p>
         &quot;
         {quote[0]}
