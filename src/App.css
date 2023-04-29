@@ -8,6 +8,16 @@
   margin: 20px auto;
 }
 
+.qtitle {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.auth {
+  font-weight: 700;
+}
+
 .calclines {
   font-size: 20px;
 }
