@@ -1,21 +1,51 @@
 * {
-  color: black;
   list-style: none;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #caedff;
+}
+
+.navigation {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.navigation h1 a {
+  color: black;
+  font-size: 34px;
+}
+
+.navbar li a {
+  color: #0060af;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar li a:hover {
+  color: rgb(122, 4, 63);
+  font-size: 21px;
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  gap: 2rem;
+  margin: 10px auto;
 }
 
 .calc {
-  width: 50%;
-  margin: 20px auto;
-}
-
-.qtitle {
-  text-align: center;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-.auth {
-  font-weight: 700;
+  width: 100%;
+  margin-top: 10px;
 }
 
 .calclines {
@@ -45,11 +75,29 @@
 .number {
   background-color: #e0e0e0;
   font-size: 20px;
-  padding: 30px 0;
+  padding: 17px 0;
   font-weight: bold;
   border: 1px solid #ccc;
 }
 
 .end {
   background-color: #f5913e;
+}
+
+h2 {
+  font-size: 24px;
+  width: 80%;
+  margin: 50px auto 0 auto;
+}
+
+p {
+  font-size: 20px;
+  width: 80%;
+  margin: 30px auto;
+  vertical-align: middle;
+}
+
+.quote {
+  width: 60%;
+  margin: 100px auto;
 }

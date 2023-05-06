@@ -1,12 +1,19 @@
 import React from 'react';
-import Calculator from './components/calculator';
+import { Route, Routes } from 'react-router-dom';
+import Calculator from './components/pages/calculator';
+import Quote from './components/pages/Quote';
+import Navbar from './components/Navbar';
+import Home from './components/pages/Home';
 import './App.css';
-import Quote from './components/Quote';
 
 const App = () => (
   <div>
-    <Calculator />
-    <Quote />
+    <Navbar />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/calculator" element={<Calculator />} />
+      <Route path="/quote" element={<Quote />} />
+    </Routes>
   </div>
 );
 
