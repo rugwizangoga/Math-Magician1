@@ -33,13 +33,10 @@ const Quote = () => {
 
   return (
     <div className="calc">
-      <div className="qtitle">Quote about the age</div>
-      <p>
+      <p className="quote">
         &quot;
         {quote[0]}
         &quot;
-      </p>
-      <p className="auth">
         -
         {quote[1]}
       </p>
